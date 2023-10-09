@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77D2E062AD421C900E3CBDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2E052AD421C900E3CBDF /* AppDelegate.swift */; };
+		F77D2E082AD421C900E3CBDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2E072AD421C900E3CBDF /* SceneDelegate.swift */; };
+		F77D2E0A2AD421C900E3CBDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2E092AD421C900E3CBDF /* ViewController.swift */; };
+		F77D2E0D2AD421C900E3CBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77D2E0B2AD421C900E3CBDF /* Main.storyboard */; };
+		F77D2E0F2AD421C900E3CBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77D2E0E2AD421C900E3CBDF /* Assets.xcassets */; };
+		F77D2E122AD421C900E3CBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77D2E102AD421C900E3CBDF /* LaunchScreen.storyboard */; };
+		F77D2E1D2AD421CA00E3CBDF /* alfaiOSHomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2E1C2AD421CA00E3CBDF /* alfaiOSHomeworkTests.swift */; };
+		F77D2E272AD421CA00E3CBDF /* alfaiOSHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2E262AD421CA00E3CBDF /* alfaiOSHomeworkUITests.swift */; };
+		F77D2E292AD421CA00E3CBDF /* alfaiOSHomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77D2E282AD421CA00E3CBDF /* alfaiOSHomeworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F77D2E192AD421CA00E3CBDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77D2DFA2AD421C900E3CBDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77D2E012AD421C900E3CBDF;
+			remoteInfo = alfaiOSHomework;
+		};
+		F77D2E232AD421CA00E3CBDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77D2DFA2AD421C900E3CBDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77D2E012AD421C900E3CBDF;
+			remoteInfo = alfaiOSHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F77D2E022AD421C900E3CBDF /* alfaiOSHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alfaiOSHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77D2E052AD421C900E3CBDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F77D2E072AD421C900E3CBDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F77D2E092AD421C900E3CBDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F77D2E0C2AD421C900E3CBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F77D2E0E2AD421C900E3CBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77D2E112AD421C900E3CBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F77D2E132AD421C900E3CBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77D2E182AD421CA00E3CBDF /* alfaiOSHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alfaiOSHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77D2E1C2AD421CA00E3CBDF /* alfaiOSHomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaiOSHomeworkTests.swift; sourceTree = "<group>"; };
+		F77D2E222AD421CA00E3CBDF /* alfaiOSHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alfaiOSHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77D2E262AD421CA00E3CBDF /* alfaiOSHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaiOSHomeworkUITests.swift; sourceTree = "<group>"; };
+		F77D2E282AD421CA00E3CBDF /* alfaiOSHomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaiOSHomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77D2DFF2AD421C900E3CBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D2E152AD421CA00E3CBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D2E1F2AD421CA00E3CBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77D2DF92AD421C900E3CBDF = {
+			isa = PBXGroup;
+			children = (
+				F77D2E042AD421C900E3CBDF /* alfaiOSHomework */,
+				F77D2E1B2AD421CA00E3CBDF /* alfaiOSHomeworkTests */,
+				F77D2E252AD421CA00E3CBDF /* alfaiOSHomeworkUITests */,
+				F77D2E032AD421C900E3CBDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77D2E032AD421C900E3CBDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77D2E022AD421C900E3CBDF /* alfaiOSHomework.app */,
+				F77D2E182AD421CA00E3CBDF /* alfaiOSHomeworkTests.xctest */,
+				F77D2E222AD421CA00E3CBDF /* alfaiOSHomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77D2E042AD421C900E3CBDF /* alfaiOSHomework */ = {
+			isa = PBXGroup;
+			children = (
+				F77D2E052AD421C900E3CBDF /* AppDelegate.swift */,
+				F77D2E072AD421C900E3CBDF /* SceneDelegate.swift */,
+				F77D2E092AD421C900E3CBDF /* ViewController.swift */,
+				F77D2E0B2AD421C900E3CBDF /* Main.storyboard */,
+				F77D2E0E2AD421C900E3CBDF /* Assets.xcassets */,
+				F77D2E102AD421C900E3CBDF /* LaunchScreen.storyboard */,
+				F77D2E132AD421C900E3CBDF /* Info.plist */,
+			);
+			path = alfaiOSHomework;
+			sourceTree = "<group>";
+		};
+		F77D2E1B2AD421CA00E3CBDF /* alfaiOSHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F77D2E1C2AD421CA00E3CBDF /* alfaiOSHomeworkTests.swift */,
+			);
+			path = alfaiOSHomeworkTests;
+			sourceTree = "<group>";
+		};
+		F77D2E252AD421CA00E3CBDF /* alfaiOSHomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F77D2E262AD421CA00E3CBDF /* alfaiOSHomeworkUITests.swift */,
+				F77D2E282AD421CA00E3CBDF /* alfaiOSHomeworkUITestsLaunchTests.swift */,
+			);
+			path = alfaiOSHomeworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77D2E012AD421C900E3CBDF /* alfaiOSHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77D2E2C2AD421CA00E3CBDF /* Build configuration list for PBXNativeTarget "alfaiOSHomework" */;
+			buildPhases = (
+				F77D2DFE2AD421C900E3CBDF /* Sources */,
+				F77D2DFF2AD421C900E3CBDF /* Frameworks */,
+				F77D2E002AD421C900E3CBDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alfaiOSHomework;
+			productName = alfaiOSHomework;
+			productReference = F77D2E022AD421C900E3CBDF /* alfaiOSHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F77D2E172AD421CA00E3CBDF /* alfaiOSHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77D2E2F2AD421CA00E3CBDF /* Build configuration list for PBXNativeTarget "alfaiOSHomeworkTests" */;
+			buildPhases = (
+				F77D2E142AD421CA00E3CBDF /* Sources */,
+				F77D2E152AD421CA00E3CBDF /* Frameworks */,
+				F77D2E162AD421CA00E3CBDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77D2E1A2AD421CA00E3CBDF /* PBXTargetDependency */,
+			);
+			name = alfaiOSHomeworkTests;
+			productName = alfaiOSHomeworkTests;
+			productReference = F77D2E182AD421CA00E3CBDF /* alfaiOSHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77D2E212AD421CA00E3CBDF /* alfaiOSHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77D2E322AD421CA00E3CBDF /* Build configuration list for PBXNativeTarget "alfaiOSHomeworkUITests" */;
+			buildPhases = (
+				F77D2E1E2AD421CA00E3CBDF /* Sources */,
+				F77D2E1F2AD421CA00E3CBDF /* Frameworks */,
+				F77D2E202AD421CA00E3CBDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77D2E242AD421CA00E3CBDF /* PBXTargetDependency */,
+			);
+			name = alfaiOSHomeworkUITests;
+			productName = alfaiOSHomeworkUITests;
+			productReference = F77D2E222AD421CA00E3CBDF /* alfaiOSHomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77D2DFA2AD421C900E3CBDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F77D2E012AD421C900E3CBDF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F77D2E172AD421CA00E3CBDF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F77D2E012AD421C900E3CBDF;
+					};
+					F77D2E212AD421CA00E3CBDF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F77D2E012AD421C900E3CBDF;
+					};
+				};
+			};
+			buildConfigurationList = F77D2DFD2AD421C900E3CBDF /* Build configuration list for PBXProject "alfaiOSHomework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77D2DF92AD421C900E3CBDF;
+			productRefGroup = F77D2E032AD421C900E3CBDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77D2E012AD421C900E3CBDF /* alfaiOSHomework */,
+				F77D2E172AD421CA00E3CBDF /* alfaiOSHomeworkTests */,
+				F77D2E212AD421CA00E3CBDF /* alfaiOSHomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77D2E002AD421C900E3CBDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77D2E122AD421C900E3CBDF /* LaunchScreen.storyboard in Resources */,
+				F77D2E0F2AD421C900E3CBDF /* Assets.xcassets in Resources */,
+				F77D2E0D2AD421C900E3CBDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D2E162AD421CA00E3CBDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D2E202AD421CA00E3CBDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77D2DFE2AD421C900E3CBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77D2E0A2AD421C900E3CBDF /* ViewController.swift in Sources */,
+				F77D2E062AD421C900E3CBDF /* AppDelegate.swift in Sources */,
+				F77D2E082AD421C900E3CBDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D2E142AD421CA00E3CBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77D2E1D2AD421CA00E3CBDF /* alfaiOSHomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D2E1E2AD421CA00E3CBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77D2E292AD421CA00E3CBDF /* alfaiOSHomeworkUITestsLaunchTests.swift in Sources */,
+				F77D2E272AD421CA00E3CBDF /* alfaiOSHomeworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77D2E1A2AD421CA00E3CBDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77D2E012AD421C900E3CBDF /* alfaiOSHomework */;
+			targetProxy = F77D2E192AD421CA00E3CBDF /* PBXContainerItemProxy */;
+		};
+		F77D2E242AD421CA00E3CBDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77D2E012AD421C900E3CBDF /* alfaiOSHomework */;
+			targetProxy = F77D2E232AD421CA00E3CBDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F77D2E0B2AD421C900E3CBDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77D2E0C2AD421C900E3CBDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F77D2E102AD421C900E3CBDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77D2E112AD421C900E3CBDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77D2E2A2AD421CA00E3CBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77D2E2B2AD421CA00E3CBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77D2E2D2AD421CA00E3CBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = alfaiOSHomework/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSHomework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77D2E2E2AD421CA00E3CBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = alfaiOSHomework/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSHomework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F77D2E302AD421CA00E3CBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSHomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alfaiOSHomework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alfaiOSHomework";
+			};
+			name = Debug;
+		};
+		F77D2E312AD421CA00E3CBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSHomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alfaiOSHomework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alfaiOSHomework";
+			};
+			name = Release;
+		};
+		F77D2E332AD421CA00E3CBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSHomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alfaiOSHomework;
+			};
+			name = Debug;
+		};
+		F77D2E342AD421CA00E3CBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSHomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alfaiOSHomework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77D2DFD2AD421C900E3CBDF /* Build configuration list for PBXProject "alfaiOSHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D2E2A2AD421CA00E3CBDF /* Debug */,
+				F77D2E2B2AD421CA00E3CBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77D2E2C2AD421CA00E3CBDF /* Build configuration list for PBXNativeTarget "alfaiOSHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D2E2D2AD421CA00E3CBDF /* Debug */,
+				F77D2E2E2AD421CA00E3CBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77D2E2F2AD421CA00E3CBDF /* Build configuration list for PBXNativeTarget "alfaiOSHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D2E302AD421CA00E3CBDF /* Debug */,
+				F77D2E312AD421CA00E3CBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77D2E322AD421CA00E3CBDF /* Build configuration list for PBXNativeTarget "alfaiOSHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D2E332AD421CA00E3CBDF /* Debug */,
+				F77D2E342AD421CA00E3CBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77D2DFA2AD421C900E3CBDF /* Project object */;
+}
